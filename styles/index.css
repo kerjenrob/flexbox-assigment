@@ -170,10 +170,11 @@ On my screen I get tree sections in a row but it's suppos to be ust two. How can
     margin: 20px; 
     border-radius: 5px;
     }   
-    .text {                     /*don't work, neither does baseline*/
-        align-self: center;
-        justify-self: center;
+    /*.text {                     /*don't work, neither does baseline
+        justify-content: baseline;
+        align-content: center;
     } 
+    */
     .square-m {
         width: 80px;
         min-height: 80px;
@@ -182,6 +183,7 @@ On my screen I get tree sections in a row but it's suppos to be ust two. How can
         margin: 15px 7px 15px 7px;
         border-radius: 5px;
         color: white;
+        align-items: baseline; /* GAHHHH!*/
         }        
     .square-n {
         width: 80px;
@@ -221,7 +223,8 @@ On my screen I get tree sections in a row but it's suppos to be ust two. How can
         border: 15px#9D0208;
         margin: 15px 7px 15px 7px;
         border-radius: 5px;
-         }        
+        flex-grow: 1; /*what is wrong*/
+        }        
     .square-q {
         width: 80px;
         min-height: 80px;
@@ -229,7 +232,7 @@ On my screen I get tree sections in a row but it's suppos to be ust two. How can
         border: 15px#9D0208;
         margin: 15px 7px 15px 7px;
         border-radius: 5px;
-        flex-grow:  2;      /* it looks to big!!*/
+        flex-grow:  2;      
         }        
     .square-r {S
         width: 80px;
@@ -238,6 +241,7 @@ On my screen I get tree sections in a row but it's suppos to be ust two. How can
         border: 15px#9D0208;
         margin: 15px 7px 15px 7px;
         border-radius: 5px;
+        flex-grow: 1;
         }
            
         
