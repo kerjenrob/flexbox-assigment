@@ -199,6 +199,42 @@ body {
         border-radius: 5px;
         color: white;
         }
-    
+.section-six {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    margin: 20px; 
+    border-radius: 5px;
+    }    
+    .square-p {
+        width: 80px;
+        min-height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 15px 7px 15px 7px;
+        border-radius: 5px;
+         }        
+    .square-q {
+        width: 80px;
+        min-height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 15px 7px 15px 7px;
+        border-radius: 5px;
+        flex-grow:  2;      /* it looks to big!!*/
+        }        
+    .square-r {S
+        width: 80px;
+        min-height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 15px 7px 15px 7px;
+        border-radius: 5px;
+        }
+           
         
         
