@@ -2,7 +2,10 @@ body {
     background-color: brown;
     display: flex;
     flex-direction: row;
-    /*justify-content: center;
+    flex-wrap: wrap;
+    /*max-width: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;*/
     
 }
@@ -11,7 +14,7 @@ body {
 
 .section-one {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: flex-start;
     align-items: flex-end;
     width: 468px;
@@ -20,7 +23,6 @@ body {
     margin: 20px; 
     border-radius: 5px;
     }
-
     .square-a {
         width: 80px;
         height: 80px;
@@ -29,7 +31,6 @@ body {
         margin: 7px;
         border-radius: 5px;
         }
-
     .square-b {
         width: 80px;
         height: 80px;
@@ -46,6 +47,7 @@ body {
         margin: 7px;
         border-radius: 5px;
         }
+
 .section-two {
     display: flex;
     flex-direction: row;
@@ -55,10 +57,8 @@ body {
     height: 160px;
     background-color: #F48C06;
     margin: 20px; 
-    
     border-radius: 5px;
-    }
-        
+    }    
     .square-d {
         width: 80px;
         min-height: 80px;
@@ -82,5 +82,77 @@ body {
         border: 15px#9D0208;
         margin: 15px 7px 15px 7px;
         border-radius: 5px;
-        }        
+        }
+
+.section-tree {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    margin: 20px; 
+    border-radius: 5px;
+    }       
+    .square-g {
+        width: 80px;
+        height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 7px;
+        border-radius: 5px;
+        } 
+    .square-h {
+        width: 80px;
+        height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 7px;
+        border-radius: 5px;
+        }
+    .square-i {
+        width: 80px;
+        height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 7px;
+        border-radius: 5px;
+        }
+        
+.section-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    margin: 20px; 
+    border-radius: 5px;
+            }       
+    .square-j {
+        width: 80px;
+        height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 7px;
+        border-radius: 5px;
+        } 
+    .square-k {
+        width: 80px;
+        height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 7px;
+        border-radius: 5px;
+        }
+    .square-l {
+        width: 80px;
+        height: 80px;
+        background-color: #9D0208;
+        border: 15px#9D0208;
+        margin: 7px;
+        border-radius: 5px;
+        }
         
